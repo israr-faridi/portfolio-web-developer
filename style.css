@@ -31,9 +31,11 @@ main {
     overflow: hidden;
 
 }
-
+/* 
+////////////////////////
+/// HEADER START //////
+////////////////////// */
 header {
-    /* background-color: var(--black); */
     color: var(--white);
     display: flex;
     justify-content: space-between;
@@ -209,8 +211,6 @@ main {
     z-index: 1;
     width: 9%;
     animation: mymove 4s infinite linear;
-    /* transform: rotate(25deg); */
-
 }
 
 .cube img {
@@ -341,8 +341,6 @@ main {
     overflow: hidden;
     position: relative;
     border-radius: 12px;
-    /* border-end-end-radius: 0px; */
-    /* border-end-start-radius: 0px; */
 }
 
 .video:hover .video_overly {
@@ -449,7 +447,6 @@ main {
     width: 70%;
     font-weight: 500;
     word-spacing: 2px;
-    /* padding-bottom: 5%; */
 }
 
 .contact_form {
@@ -542,6 +539,7 @@ footer {
     transition: all 0.3s;
 }
 
+/* LARGE LAPTOP */
 @media screen and (max-width: 1440px) {
     main {
         padding: var(--padding-lagerLaptop);
@@ -581,6 +579,8 @@ footer {
         width: 75%;
     }
 }
+
+/* LARGE LAPTOP */
 
 @media screen and (max-width: 1024px) {
     main {
@@ -646,6 +646,7 @@ footer {
     }
 }
 
+/* TABLET */
 @media screen and (max-width: 768px) {
     main {
         padding: var(--padding-tablet);
@@ -761,6 +762,7 @@ footer {
 
 }
 
+/* MID SCREEN */
 @media screen and (max-width: 686px) {
     header {
         flex-direction: column;
@@ -862,6 +864,7 @@ footer {
 
 }
 
+/* LARGE MOBILE */
 @media screen and (max-width: 578px) {
     .experience_wrapper {
         grid-row-gap: 2rem;
@@ -942,6 +945,7 @@ footer {
 
 }
 
+/* MOBILE */
 @media screen and (max-width: 425px) {
     .logo h1 {
         font-size: 2rem;
